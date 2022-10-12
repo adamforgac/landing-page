@@ -1,2 +1,2 @@
 # landing-page
-Landing page from The Odin Project
+Simple landing page from The Odin Project.
