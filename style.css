@@ -10,11 +10,122 @@
 }
 
 body {
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/pos-back1.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/pos-back9.jpg);
+    /* background-color: black; */
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;   
-    background-position: center;
+    /* background-attachment: fixed;    */
+    background-position: top; 
+}
+
+/* SECTION1-MOBILE */
+/* SECTION1-MOBILE */
+/* SECTION1-MOBILE */
+
+.section1-mobile {
+    display: none;
+    min-height: 400px;
+    width: 100%;
+    border-bottom: 2px solid #3882F6;
+}
+
+.section1-wrapper-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header-menu-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header-content-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-left-mobile {
+    max-width: 300px;
+    margin-top: 70px;
+}
+
+/* LAYOUT OFF */
+/* LAYOUT OFF */
+/* LAYOUT OFF */
+
+.header-content-image-mobile img {
+    max-width: 200px;
+    min-height: 100px;
+}
+
+.header-content-image-mobile {
+    margin-top: 15px;
+}
+
+.header-content-text-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+.logo-mobile h2 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.list-mobile ul li a {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.list-mobile ul li {
+    display: inline-block;
+}
+
+.header-heading-mobile h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.header-paragraph-mobile p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.header-button-mobile button {
+    background-color: #3882F6;
+    padding: 5px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid #3882F6;
+    margin: 0px auto;
+}
+
+.header-button-mobile a {
+    text-decoration: none;
+    color: white;
 }
 
 /* SECTION1 */
@@ -193,6 +304,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     margin-top: 5px;
+    text-align: center;
 }
 
 .random-image-only img {
