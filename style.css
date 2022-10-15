@@ -10,12 +10,12 @@
 }
 
 body {
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/pos-back9.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/pos-back10.jpg);
     /* background-color: black; */
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed;    */
-    background-position: top; 
+    background-position: bottom; 
 }
 
 /* SECTION1-MOBILE */
@@ -29,6 +29,12 @@ body {
     border-bottom: 2px solid #3882F6;
 }
 
+.logo img {
+    width: 120px;
+    transform: translateY(-15%);
+    margin-bottom: 70px;
+}
+
 .section1-wrapper-mobile {
     display: flex;
     flex-direction: column;
@@ -40,7 +46,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .header-content-mobile {
@@ -50,8 +56,12 @@ body {
     align-items: center;
 }
 
+/* .header-right-mobile {
+    align-self: center;
+} */
+
 .header-left-mobile {
-    max-width: 300px;
+    max-width: 500px;
     margin-top: 70px;
 }
 
@@ -60,12 +70,23 @@ body {
 /* LAYOUT OFF */
 
 .header-content-image-mobile img {
-    max-width: 200px;
+    max-width: 270px;
     min-height: 100px;
+    display: flex;
+    align-self: flex-end;
+    margin-top: -40px;
 }
 
 .header-content-image-mobile {
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.header-right-mobile {
+    align-self: flex-end;
 }
 
 .header-content-text-mobile {
@@ -74,7 +95,8 @@ body {
     align-items: flex-start;
     max-width: 400px;
     margin: 0px auto;
-    justify-content: center;
+    justify-content: flex-end;
+    padding: 0px 30px 0px 20px;
 }
 
 .logo-mobile h2 {
@@ -86,7 +108,7 @@ body {
 
 .list-mobile ul li a {
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     margin: 0px 10px;
     color: #E5E7EB;
     text-decoration: none;
@@ -98,7 +120,7 @@ body {
 
 .header-heading-mobile h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 900;
     color: white;
     margin-bottom: 30px;
@@ -107,7 +129,7 @@ body {
 .header-paragraph-mobile p {
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 200;
     margin-bottom: 20px;
     margin-bottom: 30px;
@@ -115,9 +137,10 @@ body {
 
 .header-button-mobile button {
     background-color: #3882F6;
-    padding: 5px 14px;
+    padding: 10px 25px;
     border: none;
     border-radius: 6px;
+    font-size: 15px;
     cursor: pointer;
     border: 2px solid #3882F6;
     margin: 0px auto;
@@ -269,6 +292,7 @@ body {
     font-weight: 900;
     margin-top: 35px;
     color: white;
+    text-align: center;
 }
 
 .random-info {
