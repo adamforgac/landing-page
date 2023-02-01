@@ -1,2 +1,3 @@
 # landing-page
-Simple landing page from The Odin Project.
+Simple ladning page with pregiven design from The Odin Project. 
+I personally don't really like the look of this page, but I had to do it.
